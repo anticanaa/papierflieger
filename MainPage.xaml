@@ -1,7 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Papierflieger.MainPage">
+             x:Class="Papierflieger.MainPage"
+             Title="Papierflieger">
+
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="Papierflieger" HorizontalOptions="Center"
+                   VerticalOptions="Center" FontFamily="sansserif" FontSize="Medium" TextColor="Turquoise"
+                   FontAttributes="Bold"/>
+        </Grid>
+    </Shell.TitleView>
 
     <Grid Margin="15" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
         <Label Margin="5" Text="Name"/>
