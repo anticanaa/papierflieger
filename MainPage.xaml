@@ -7,7 +7,7 @@
     <Shell.TitleView>
         <Grid>
             <Label Text="Papierflieger" HorizontalOptions="Center"
-                   VerticalOptions="Center" FontFamily="sansserif" FontSize="Medium" TextColor="Turquoise"
+                   VerticalOptions="Center" FontFamily="sansserif" FontSize="Large" TextColor="Turquoise"
                    FontAttributes="Bold"/>
         </Grid>
     </Shell.TitleView>
