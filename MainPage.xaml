@@ -6,13 +6,13 @@
     <Grid Margin="15" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto">
         <Label Margin="5" Text="Name"/>
         <Entry Grid.Row="1" x:Name="Name"
-           Placeholder="Name"/>
+       Placeholder="Name"/>
         <Label Margin="5"  Grid.Row="2" Text="Reichweite"/>
         <Entry Grid.Row="3" x:Name="Reichweite"
-           Placeholder="Reichweite"/>
+       Placeholder="Reichweite"/>
         <Button Margin="5" Grid.Row="4" BackgroundColor="Gray"
-            Text="Hinzufügen"/>
+        Text="Hinzufügen"/>
         <Button Margin="5" Grid.Row="5" BackgroundColor="Gray" Text="alle löschen"/>
- 
+
     </Grid>
 </ContentPage>
