@@ -8,7 +8,7 @@
     Title="Papierflieger">
 
     <ShellContent
-        Title="Papierflieger"
+        Title=""
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
